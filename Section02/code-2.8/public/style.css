@@ -1,0 +1,135 @@
+/* Styles go here */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: beige;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+}
+
+textarea {
+  width: 100%;
+  font-size: 14px;
+}
+
+#friends {
+  list-style-type: none;
+}
+
+.friend {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 20px 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.friend:hover {
+  background-color: #eee;
+}
+
+.friend .profile-image {
+  float: left;
+  margin-right: 10px;
+}
+
+.friend .name {
+  font-size: 20px;
+  margin-bottom: 10px
+}
+
+.friend .screen-name {
+  color: #588;
+}
+
+.friend .location {
+  color: #666;
+}
+
+.active, .active:hover {
+  background-color: #aef;
+  border-color: #8af;
+}
+
+#wrapper {
+    margin: 20px 5%;
+    background-color: white;
+    position: relative;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 2px;
+}
+
+.column {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  vertical-align: top;
+  padding: 20px;
+}
+
+#friends-column {
+  border-right: 2px dashed #368;
+}
+
+#notes-column {
+  position: fixed;
+  width: 45%;
+}
+
+#notes-column p, #notes-column input {
+  width: 100%;
+  font-size: 20px;
+}
+
+#notes-column p, #notes-column h2 {
+  margin-top: 20px;
+}
+
+#buttons-bar {
+  text-align: right;
+}
+
+#buttons-bar button {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.notification {
+  position: absolute;
+  right: 5%;
+  top: 20px;
+  text-align: center;
+  border: 2px solid #080;
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: #afa;
+}
+
+#notes {
+  list-style-type: none;
+}
+
+#notes li {
+  box-shadow: 0px 1px 3px #266;
+  background-color: #eff;
+  padding: 5px;
+  margin: 10px 0px;
+}
+
+#notes li:focus {
+  background-color: #ffe;
+  outline: 0;
+}
+
+#notes .add-note {
+  opacity: 0.5;
+}
+
+#notes .add-note:hover {
+  opacity: 1.0;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="friends-column" class="column">
+        <h1>Your Friends</h1>
+        <ul id="friends">
+          <% friends.forEach(function(friend) { %>
+            <li uid="<%= friend.twitter_id %>"class="friend">
+              <img class="profile-image" src="<%= friend.profile_image_url %>">
+              <p>
+                <span class="name"><%= friend.name %></span>
+                <span class="screen-name">@<%= friend.screen_name %></span>
+              </p>
+              <p class="location"><%= friend.location %></p>
+            </li>
+          <% }); %>
+        </ul>
+      </div><!--
+      --><div id="notes-column" class="column">
+        <h1>Notes</h1>
+        <ul id="notes"></ul>
+      </div>
+    </div>
+  </body>
+
+</html>
