@@ -25,16 +25,16 @@ By the end of this course, you will have a good grasp of APIs, HTTP, REST, OAuth
 ## Instructions and Navigation
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
-Familiarity with JavaScript
-Knowledge of NodeJS is recommended but not required
+<LI>Familiarity with JavaScript
+<LI>Knowledge of NodeJS is recommended but not required
 ### Technical Requirements
-This course has the following software requirements:<br/>
-Windows 7 or higher
-Node.js
-OS: Windows, MacOS or Ubuntu
-Processor: Intel Core i3 or higher
-Memory: 4GB RAM
-Storage : 15GB 
+
+<LI>Windows 7 or higher
+<LI>Node.js
+<LI>OS: Windows, MacOS or Ubuntu
+<LI>Processor: Intel Core i3 or higher
+<LI>Memory: 4GB RAM
+<LI>Storage : 15GB 
 
 
 
