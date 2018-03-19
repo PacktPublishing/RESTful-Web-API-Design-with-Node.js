@@ -27,6 +27,7 @@ By the end of this course, you will have a good grasp of APIs, HTTP, REST, OAuth
 To fully benefit from the coverage included in this course, you will need:<br/>
 <LI>Familiarity with JavaScript
 <LI>Knowledge of NodeJS is recommended but not required
+  
 ### Technical Requirements
 
 <LI>Windows 7 or higher
